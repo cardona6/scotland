@@ -1,6 +1,16 @@
-/*navigating */3
+/*navigating */
 body{
 background-color:rgb(182,255,244);
+}
+.nav-link{
+    background-color:green;
+    font-size: 2.5em;
+    border-top: 10px solid black;
+    border-bottom: 10px solid yellow;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 15px;
+    
 }
 
 /* titlte */
@@ -12,7 +22,6 @@ color:#872E6F;
 /* article */
 
 .articles{
-color:#872E6F ;
 float: left;
 flex: 4;
 display:flex;
@@ -22,14 +31,15 @@ align-items:flex-start;
 flex-wrap: wrap; 
 }
 
-.article .article-title{
+.article .article-title{ 
 text-align: center;
 font-size: 2em;
 font-weight: bold;
 text-decoration: underline;
 }
-.lead {
+.article-lead {
     background-color:rgb(182,255,244);
+    border-color: black solido;
 }
 /* jumbotron */
 .jumbotron{
@@ -43,9 +53,9 @@ background-color:white;
 
 /* media quires*/
 @media screen and (max-width: 400px) {
-.flex-container{
+.articles{
 display:flex;
-flex-direction:row;
+flex-direction:column;
 justify-content:center;
 align-items:flex-start;
 flex-wrap: wrap;
@@ -53,7 +63,7 @@ flex-wrap: wrap;
 }
 
 @media screen and (max-width: 800px){
-.articles{
+.articlessidebar-content col-lg{
 display:flex;
 flex-direction:column;
 justify-content:center;
