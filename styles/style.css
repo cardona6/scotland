@@ -1,64 +1,21 @@
 /*navigating */
-body{
-background-color:rgb(182,255,244);
-}
-.nav-link{
-    background-color:green;
-    font-size: 2.5em;
-    border-top: 10px solid black;
-    border-bottom: 10px solid yellow;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    margin-left: 15px;
-    
-}
 
 /* titlte */
-.website-title{
-font-size:5em;
-text-align:center;
-color:#872E6F;
-}
+
 /* article */
 
-.articles {
-float: left;
-flex: 4;
-display:flex;
-flex-direction:row;
-justify-content:center;
-align-items:flex-start;
-flex-wrap: wrap; 
-}
-.articles.article {
-    width:50%;
-}
-
-.article-title { 
-text-align: center;
-font-size: 2em;
-font-weight: bold;
-text-decoration: underline;
-}
-.article-lead {
-    background-color:rgb(182,255,244);
-    border-color: black solido;
-}
 /* jumbotron */
-.jumbotron{
-    background-color:rgb(182,255,244);
-}
+
+
 /* footer */
-.site-footer{
-background-color:white;
-}
+
 
 
 /* media quires*/
 @media screen and (max-width: 380px) {
 .articles{
 display:flex;
-flex-direction:column;
+flex-direction:row;
 justify-content:center;
 align-items:flex-start;
 flex-wrap: wrap;
