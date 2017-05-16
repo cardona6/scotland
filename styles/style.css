@@ -1,10 +1,45 @@
 /*navigating */
-
+body{
+    background-color:gray;
+}
 /* titlte */
 
-/* article */
+
 
 /* jumbotron */
+
+
+/* article */
+.flex1{
+    color:black;
+    width: 30%;
+    order: 1;
+}
+.flex2{
+    text-align: center;
+    color:black;
+    width: 100%;
+    order: 0;
+}
+.flex3{
+    color: black;
+    width: 30%;
+    order: 2;
+}
+.flex4{
+    color: black;
+    width: 30%;
+    order: 3;
+}
+
+.medio-title{
+    color: blue;
+    text-align: center;
+}
+.container-title{
+    background-color: white;
+    text-align: center;
+}
 
 
 /* footer */
@@ -12,21 +47,33 @@
 
 
 /* media quires*/
-@media screen and (max-width: 380px) {
-.articles{
+
+@media screen and (min-width:780px) and (max-width:1024){
+.firts-flex {
+background-color: rgb( green);
 display:flex;
 flex-direction:row;
-justify-content:center;
+justify-content:space-around;
+align-items:flex-start;
+}
+}
+@media screen and (min-width:480px) and (max-width:780px){
+.firts-flex {
+background-color:rgba(red);
+display:flex;
+flex-direction:row;
+justify-content:space-between;
 align-items:flex-start;
 flex-wrap: wrap;
 }
 }
-
-@media screen and (max-width: 880px){
-.articlessidebar-content col-lg{
+@media screen and (min-width:480px){
+.firts-flex {
+background-color: green;
 display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
+flex-direction:row;
+justify-content:space-between;
+align-items:flex-start;
+flex-wrap: wrap;
 }
 }
