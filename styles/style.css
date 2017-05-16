@@ -1,42 +1,49 @@
 /*navigating */
-body{
-    background-color:gray;
-}
-/* titlte */
 
+body {
+    background-color: gray;
+}
+
+
+/* titlte */
 
 
 /* jumbotron */
 
 
 /* article */
-.flex1{
-    color:black;
+
+.flex1 {
+    color: black;
     width: 30%;
     order: 1;
 }
-.flex2{
+
+.flex2 {
     text-align: center;
-    color:black;
+    color: black;
     width: 100%;
     order: 0;
 }
-.flex3{
+
+.flex3 {
     color: black;
     width: 30%;
     order: 2;
 }
-.flex4{
+
+.flex4 {
     color: black;
     width: 30%;
     order: 3;
 }
 
-.medio-title{
+.medio-title {
     color: blue;
     text-align: center;
 }
-.container-title{
+
+.container-title {
     background-color: white;
     text-align: center;
 }
@@ -45,35 +52,35 @@ body{
 /* footer */
 
 
-
 /* media quires*/
 
-@media screen and (min-width:780px) and (max-width:1024){
 .firts-flex {
-background-color: rgb( green);
-display:flex;
-flex-direction:row;
-justify-content:space-around;
-align-items:flex-start;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 }
+
+
+@media screen and (min-width:480px) and (max-width:780px) {
+    .firts-flex {
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
 }
-@media screen and (min-width:480px) and (max-width:780px){
-.firts-flex {
-background-color:rgba(red);
-display:flex;
-flex-direction:row;
-justify-content:space-between;
-align-items:flex-start;
-flex-wrap: wrap;
-}
-}
-@media screen and (min-width:480px){
-.firts-flex {
-background-color: green;
-display:flex;
-flex-direction:row;
-justify-content:space-between;
-align-items:flex-start;
-flex-wrap: wrap;
-}
+
+@media screen and (min-width:780px) {
+    .firts-flex {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
 }
