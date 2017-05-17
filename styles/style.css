@@ -1,7 +1,7 @@
 /*navigating */
 
 body {
-    background-color: gray;
+    background-color: black;
 }
 
 
@@ -12,6 +12,9 @@ body {
 
 
 /* article */
+.article-lead{
+    color: white;
+}
 
 .flex1 {
     color: black;
@@ -44,10 +47,14 @@ body {
 }
 
 .container-title {
-    background-color: white;
+    background-color:black;
+    color: blue;
     text-align: center;
 }
-
+/* row of colummns */
+.container.row{
+    background-color: white;
+}
 
 /* footer */
 

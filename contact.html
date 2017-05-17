@@ -1,8 +1,139 @@
+<!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-    <body>
-        Contact HERVIN
-    </body>
+<head>
+    <title>bootstrap</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<!-- navigation -->
+
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-primary">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <a class="navbar-brand" href="https://www.google.co.uk/webhp">Google</a>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Dootstrop-->
+
+    <div class="container">
+        <img src="http://newsquestscotlandevents.com/wp-content/uploads/2015/06/GCMB-PEOPLE-MAKE-GLASGOW.jpg" alt="River_Clyde_View2"
+            width="400">
+        <form class="form-inline">
+            <label class="sr-only" for="inlineFormInput">Email</label>
+            <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Email ">
+
+            <label class="sr-only" for="inlineFormInputGroup">Password</label>
+            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">log in</button>
+        </form>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="container">
+        <div class="form-group row">
+            <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-6">
+                <input type="name" class="form-control" id="inputname" placeholder="Name">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-6">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-4">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="exampleSelect1" class="col-sm-2 col-form-label">Birthday</label>
+            <div class="col-sm-2">
+                <select class="form-control" id="exampleSelect1">
+      <option>day</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+            </div>
+            <label for="exaple2" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-2">
+                <select class="form-control" id="example2">
+      <option>month</option>
+      <option>febrary</option>
+      <option>marz</option>
+      <option>abril</option>
+      <option>may</option>
+    </select>
+            </div>
+            <label for="exple3" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-2">
+                <select class="form-control" id="example3">
+      <option>year</option>
+      <option>1991</option>
+      <option>1992</option>
+      <option>1993</option>
+      <option>1994</option>
+    </select>
+            </div>
+        </div>
+
+        <div class="form-check">
+            <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            Female
+          </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+            Male
+          </label>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="offset-sm-2 col-sm-10">
+            <button type="submit" class="btn btn-success">create an account</button>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+
+</footer>
+
 </html>
